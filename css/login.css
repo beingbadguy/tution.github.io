@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.container{
+    background: linear-gradient(to right,#000000 ,#130F40);
+    width: 100%;
+    height: 850px;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    margin-left: 20px;
+}
+
+
+.logo img{
+    height: 500px;
+}
+.menu{
+    margin-right: 10px;
+    margin-top: 40px;
+}
+.menu a{
+    text-decoration: none;
+    padding:q0px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    transition: 0.8s;
+}
+.menu a:hover{
+    border-bottom: 1px solid aqua;
+}
+.contact{
+    margin-right: 90px;
+    margin-top: 40px ;
+}
+.contact button:hover{
+    border: 1px solid aqua;
+    background-color: white;
+}
+.contact button{
+    background-color: aqua;
+    border: 1px solid transparent;
+    padding: 3px 10px;
+    border-radius: 30px;
+
+}
+.contact a{
+    text-decoration: none;
+    color: #130F40;
+    font-family: 'Poppins', sans-serif;
+    
+}
+.box{
+    margin-left: 25%;
+    margin-top: -300px;
+    width:900px;
+    height: 600px;
+    background: linear-gradient(to right,#000000 ,#130F40);
+}
+.box h1{
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+    font-family: 'Poppins', sans-serif;
+}
+.details{
+    text-align: center;
+    padding-top: 90px;
+
+}
+.details input{
+    width: 50%;
+    height: 30px;
+    padding: 10px;
+    transition: 0.1s;
+   
+}
+.details input:hover{
+    background-color: aquamarine; 
+    
+}
+.details button{
+    background-color: aqua;
+    width: 30%;
+    height: 40px;
+    padding:5px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 100;
+    margin-top: 25px;
+    cursor: pointer;
+
+}
+.details button:hover{
+    background-color: white;
+   color: black;
+   border-radius: 8px;
+
+}
+.details h5{
+    color: white;
+    margin-top: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 100;
+   
+}
+.social{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.social img{
+    margin-top: 50px;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
